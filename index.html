@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnitFlow Converter</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <header>
+        <h1>UnitFlow Converter</h1>
+        <p>Convierte unidades de forma rápida y sencilla</p>
+    </header>
+
+    <main>
+        <section class="converter-box">
+            <label for="valueInput">Valor a convertir:</label>
+            <input type="number" id="valueInput" placeholder="Introduce un número">
+
+            <label for="conversionType">Tipo de conversión:</label>
+            <select id="conversionType">
+                <option value="cToF">Celsius → Fahrenheit</option>
+                <option value="fToC">Fahrenheit → Celsius</option>
+                <option value="kmToMi">Kilómetros → Millas</option>
+                <option value="miToKm">Millas → Kilómetros</option>
+            </select>
+
+            <button id="convertBtn">Convertir</button>
+
+            <h2 id="result">Resultado: —</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto creado con ayuda de IA — 2026</p>
+    </footer>
+
+    <script src="scripts/converter.js"></script>
+</body>
+</html>
