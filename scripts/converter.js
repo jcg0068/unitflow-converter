@@ -25,6 +25,14 @@ document.getElementById("convertBtn").addEventListener("click", () => {
             break;
         default:
             result = "Error inesperado";
+            break;
+        case "mToCm":
+            result = value * 100;
+            break;
+        case "cmToM":
+             result = value / 100;
+            break;
+
     }
 
     resultBox.textContent = `Resultado: ${result.toFixed(2)}`;
