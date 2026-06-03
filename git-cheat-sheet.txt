@@ -1,0 +1,36 @@
+Inicializar repositorio  
+git init — Crea un nuevo repositorio Git en la carpeta actual.
+git status — Muestra el estado de los archivos y del repositorio.
+
+Añadir y confirmar cambios  
+git add . — Añade todos los archivos modificados al área de staging.
+git commit -m "mensaje" — Guarda los cambios en el historial del repositorio.
+
+Ramas  
+git branch nombre — Crea una nueva rama.
+git checkout nombre — Cambia a otra rama.
+git checkout -b nombre — Crea y cambia a una nueva rama.
+git branch — Lista todas las ramas del repositorio.
+
+Trabajo en ramas  
+git checkout -b feature-update — Crea y cambia a la rama donde se desarrolló la nueva funcionalidad.
+
+Merge  
+git checkout master — Cambia a la rama principal.
+git merge feature-update — Fusiona la rama de mejora con la principal.
+
+Conectar con GitHub  
+git remote add origin URL — Enlaza el repositorio local con GitHub.
+git remote -v — Muestra los remotos configurados.
+
+Subir el proyecto  
+git push -u origin master — Sube el proyecto al repositorio remoto por primera vez.
+git push — Sube cambios posteriores.
+
+Actualizar desde GitHub  
+git pull — Descarga cambios del repositorio remoto.
+git pull --rebase — Integra cambios remotos manteniendo un historial limpio.
+
+Publicación  
+GitHub Pages activado desde:
+Settings → Pages → Branch: master → Save.
